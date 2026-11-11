@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    padding: 16px;
+    background: #f1f5f9;
+}
+
+nav a {
+    margin-right: 16px;
+    color: #2563eb;
+    text-decoration: none;
+}

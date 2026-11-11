@@ -1,0 +1,118 @@
+/* =================================
+   PROFESSOR MANAGEMENT
+================================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    color: #212529;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #16324f !important;
+    padding: 15px;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #f4a261 !important;
+}
+
+/* Conteneur principal */
+.container {
+    margin-top: 35px;
+}
+
+/* Titres */
+h1 {
+    color: #16324f;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+/* Cartes */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Tableaux */
+.table {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead {
+    background-color: #16324f;
+    color: white;
+}
+
+.table th {
+    background-color: #16324f;
+    color: white;
+    padding: 14px;
+}
+
+.table td {
+    padding: 12px;
+    vertical-align: middle;
+}
+
+/* Formulaires */
+.form-control {
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.form-control:focus {
+    border-color: #3182ce;
+    box-shadow: 0 0 0 0.2rem rgba(49, 130, 206, 0.15);
+}
+
+/* Boutons */
+.btn {
+    border-radius: 6px;
+    padding: 8px 14px;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background-color: #3182ce;
+    border-color: #3182ce;
+}
+
+.btn-primary:hover {
+    background-color: #2465a0;
+}
+
+.btn-warning {
+    color: #212529;
+}
+
+.btn-info {
+    color: white;
+}
+
+/* Alertes */
+.alert {
+    border-radius: 8px;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

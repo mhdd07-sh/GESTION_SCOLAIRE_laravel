@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+    margin: 0;
+    place-items: center;
+    background: #f1f5f9;
+    color: #1e293b;
+    font-family: Arial, sans-serif;
+}
+
+.welcome {
+    padding: 3rem 4rem;
+    border-radius: 1rem;
+    background: #fff;
+    box-shadow: 0 1rem 2.5rem rgb(30 41 59 / 12%);
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: clamp(2rem, 8vw, 3.5rem);
+}
